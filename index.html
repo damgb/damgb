@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonnatan Pereira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class= index href="index.html" target="_self"><h1>Jonnatan Pereira</h1></a>
+        <p>Passion | Curiosity | Resourcefulness</p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>I am a resourceful physicist and programmer with mastery in solving problems and crafting elegant solutions. Passionate about science, technology and coding</p>
+            </div>
+        </section>
+
+        <!-- P R O J E C T S -->
+        <!-- --------------- -->        
+        <!-- <section class="section" id="projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Project 1</h3>
+                <p>Section in development...</p>
+            </div>
+        </section> -->
+
+        <!-- E X T E N D E D -->
+        <!-- --------------- -->
+        <div id="include-content1"></div> <!-- certifications -->
+        <div id="include-content2"></div> <!-- workshops -->
+        <div id="include-content3"></div> <!-- contact -->
+        <script src="/include.js"></script>
+        <script>
+          loadContent('/extend_certifications.html', 'include-content1');
+          loadContent('/extend_workshops.html', 'include-content2');
+          loadContent('/extend_contact.html', 'include-content3');
+        </script>
+        <!-- --------------- -->
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Jonnatan Pereira | Built with love in Bogotá, Colombia</p>
+    </footer>
+</body>
+</html>
+
